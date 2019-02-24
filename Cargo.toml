@@ -1,0 +1,8 @@
+[package]
+authors = ["Alexandra V. <delta.psi00@gmail.com>"]
+edition = "2018"
+name = "circuit-solver"
+version = "0.1.0"
+[dependencies]
+nalgebra = "0.17"
+scan-rules = "*"
