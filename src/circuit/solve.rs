@@ -30,7 +30,7 @@ impl Circuit {
         // build the linear system
         a[(0, 0)] = 1.0;
         for i in 1 .. self.node_count as usize {
-            for (j, w, begin) in &adjacency[i] {
+            for (_, w, begin) in &adjacency[i] {
                 if *begin {
                     a[(i, self.node_count as usize + *w)] = 1.0;
                 } else {
