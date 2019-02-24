@@ -18,7 +18,7 @@ directory contains some sample circuits. Nodes are 0-indexed.
 * Line 1: node count, wire count.
 * Line 2: blank.
 
-The rest of the input contain the data for each wire, separated
+The rest of the input contains the data for each wire, separated
 by blank lines:
 * Line 1: source node, end node, component count.
 * One line for each component: component type (`v`/`i`/`r`),
